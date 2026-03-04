@@ -376,7 +376,7 @@ elif opcion == "✨ Dataset":
                 st.write(f"Registros filtrados: {df_filtrado.shape[0]}")
                 
                 fig, ax = plt.subplots()
-                sb.histplot(df_filtrado[col], kde=True, ax=ax, color= blue)
+                sb.histplot(df_filtrado[col], kde=True, ax=ax, color= "blue")
                 st.pyplot(fig)
 
             # ITEM 10 --------------------------------------------------------------
@@ -414,4 +414,5 @@ elif opcion == "✅ Conclusiones":
     5. Estrategias deben enfocarse en clientes nuevos y contratos mensuales.
 
     """)
+
 
