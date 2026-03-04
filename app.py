@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import seaborn as sb
 import matplotlib.pyplot as plt
-import random
 
 # Configuración inicial (debe ir antes de cualquier st.*)
 st.set_page_config(layout="wide")
@@ -414,4 +413,5 @@ elif opcion == "✅ Conclusiones":
     3. Cargos mensuales elevados se asocian a mayor abandono.
     4. Servicios adicionales reducen la probabilidad de churn.
     5. Estrategias deben enfocarse en clientes nuevos y contratos mensuales.
+
     """)
