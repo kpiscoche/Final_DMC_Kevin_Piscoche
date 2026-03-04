@@ -1,4 +1,0 @@
-streamlit
-seaborn
-numpy
-matplolib
