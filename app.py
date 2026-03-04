@@ -374,10 +374,9 @@ elif opcion == "✨ Dataset":
                 df_filtrado = df[(df[col] >= rango[0]) & (df[col] <= rango[1])]
 
                 st.write(f"Registros filtrados: {df_filtrado.shape[0]}")
-                colores = ["orange", "skyblue", "green", "purple", "salmon"]
-                color_random = random.choice(colores)
+                
                 fig, ax = plt.subplots()
-                sb.histplot(df_filtrado[col], kde=True, ax=ax, color=color_random)
+                sb.histplot(df_filtrado[col], kde=True, ax=ax, color= blue)
                 st.pyplot(fig)
 
             # ITEM 10 --------------------------------------------------------------
@@ -415,3 +414,4 @@ elif opcion == "✅ Conclusiones":
     5. Estrategias deben enfocarse en clientes nuevos y contratos mensuales.
 
     """)
+
