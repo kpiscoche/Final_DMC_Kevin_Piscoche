@@ -407,12 +407,29 @@ elif opcion == "✅ Conclusiones":
     st.title("Conclusiones")
 
     st.markdown("""
-    1. El churn se concentra principalmente en contratos mensuales.
-    2. La permanencia (tenure) es un factor clave en la retención.
-    3. Cargos mensuales elevados se asocian a mayor abandono.
-    4. Servicios adicionales reducen la probabilidad de churn.
-    5. Estrategias deben enfocarse en clientes nuevos y contratos mensuales.
+    1️⃣ El tipo de contrato influye fuertemente en el churn
+
+    El análisis de proporciones muestra que los clientes con contrato mensual presentan una mayor tasa de abandono en comparación con contratos anuales o bianuales.
+    Esto sugiere que la falta de compromiso a largo plazo incrementa el riesgo de cancelación.
+    
+    2️⃣ La permanencia (tenure) es un factor determinante
+    
+    Los boxplots evidencian que los clientes con menor tiempo en la empresa tienden a abandonar con mayor frecuencia.
+    A mayor antigüedad, menor probabilidad de churn.
+    
+    3️⃣ Cargos mensuales altos se asocian con mayor abandono
+    
+    El análisis comparativo entre MonthlyCharges y Churn muestra que los clientes que pagan montos más elevados presentan una media y mediana superiores dentro del grupo que cancela el servicio.
+    
+    4️⃣ Algunos servicios impactan en la retención
+    
+    El análisis de variables categóricas indica que clientes con servicios adicionales (como soporte técnico o seguridad en línea) presentan menores proporciones de churn en comparación con quienes no los tienen.
+    
+    5️⃣ La calidad de los datos es adecuada para análisis
+    
+    El dataset presenta muy pocos valores nulos (principalmente en TotalCharges), lo que permite realizar análisis estadísticos confiables sin necesidad de imputaciones complejas.
 
     """)
+
 
 
