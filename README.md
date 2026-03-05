@@ -13,23 +13,125 @@ CAPTURAS DEL PROYECTO:
 -------------- MENÚ PRINCIPAL ------------------------
 <img width="199" height="239" alt="image" src="https://github.com/user-attachments/assets/729fe85f-6598-4d0e-9427-aec82a8e4bb4" />
 
-INSTRUCCIONES DE EJECUCIÓN:
-LINKS RELEVANTES:
+📊 TELCO CUSTOMER CHURN ANALYTICS
+📝 Resumen del Proyecto
 
-Repositorio Github:
-Interfaz Streamlit:
+Aplicación interactiva desarrollada en Streamlit para analizar el comportamiento de clientes en una empresa de telecomunicaciones, enfocándose en la detección de patrones asociados al abandono (Churn).
 
+El sistema implementa un Análisis Exploratorio de Datos (EDA) estructurado, con enfoque estratégico orientado a la retención de clientes y optimización comercial.
 
-📝 Descripción del Proyecto
-Este proyecto se desarrolló para una base de datos de "Fuga de clientes" desarrollada con Python y publicada en Streamlit para generar una interfaz de usuario más dinámica, que implementa un Análisis Exploratorio de Datos (EDA).
+🎯 Propósito
 
-El proyecto se orienta hacia el análisis estratégico para la toma de decisiones sobre la fuga de clientes de la entidad.
+Identificar los factores que influyen en la cancelación del servicio, evaluando:
 
-Se integra:
+Impacto del tipo de contrato
 
-✅ Python aplicado a Data Analytics
-✅ Programación Orientada a Objetos (POO)
-✅ Análisis Exploratorio estructurado en 10 módulos
-✅ Visualización estadística avanzada
-✅ Dashboard interactivo profesional
-✅ Segmentación dinámica con filtros
+Relación entre permanencia y abandono
+
+Influencia de los cargos mensuales
+
+Efecto de servicios adicionales
+
+Métodos de pago y su relación con churn
+
+El objetivo no es predictivo, sino analítico y de soporte a decisiones de negocio.
+
+🧠 Diseño del Sistema
+
+El proyecto utiliza Programación Orientada a Objetos (POO), encapsulando la lógica analítica dentro de una clase principal (Analyzer), lo que permite:
+
+Organización clara del código
+
+Reutilización de funciones estadísticas
+
+Separación entre análisis y visualización
+
+Escalabilidad futura
+
+🗂️ Estructura General
+
+Home: Contexto del proyecto y descripción del dataset
+
+Dataset: Carga dinámica del archivo CSV y análisis completo
+
+Conclusiones: Principales hallazgos estratégicos
+
+El análisis se divide en 10 secciones que cubren:
+
+Tipos de datos
+
+Valores faltantes
+
+Estadísticas descriptivas
+
+Distribución de variables numéricas
+
+Análisis de variables categóricas
+
+Comparaciones contra la variable objetivo (Churn)
+
+Segmentación dinámica mediante filtros interactivos
+
+📈 Análisis Realizado
+
+Se estudian variables como:
+
+Permanencia (tenure)
+
+Cargos mensuales y totales
+
+Tipo de contrato
+
+Servicios contratados
+
+Método de pago
+
+Estado del cliente (Churn)
+
+Se aplican métricas como:
+
+Media, mediana y moda
+
+Varianza y desviación estándar
+
+Rango e IQR
+
+Proporciones y tablas cruzadas
+
+Visualizaciones comparativas (boxplots, histogramas, barras apiladas)
+
+🔎 Principales Insights
+
+Los contratos mensuales presentan mayor tasa de abandono.
+
+Clientes con baja permanencia tienen mayor probabilidad de churn.
+
+Cargos mensuales elevados están asociados a mayor riesgo.
+
+Servicios adicionales y pagos automáticos reducen la fuga.
+
+🛠️ Tecnologías
+
+Python
+
+Streamlit
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Si quieres, puedo ahora:
+
+Hacerlo aún más corto tipo descripción ejecutiva (1 sola página)
+
+Convertirlo en README optimizado para GitHub
+
+Adaptarlo a formato CV / portfolio
+
+Redactarlo como defensa oral para presentación
+
+¿Para qué lo necesitas exactamente? 🚀
