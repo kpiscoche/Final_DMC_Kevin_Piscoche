@@ -22,12 +22,14 @@ Herramientas utilizadas
 📊 2. Dataset + EDA Completo (10 Tabs)
 
 1️⃣ Información General ----------------------
+
 Tipos de datos organizados
 Conteo de valores nulos
 Dimensiones del dataset
 Vista previa
 
 2️⃣ Clasificación Automática ----------------
+
 Identificación automática de:
 Variables numéricas
 Variables categóricas
@@ -35,6 +37,7 @@ Conteo por tipo
 Listado detallado
 
 3️⃣ Estadísticas Descriptivas ---------------
+
 Incluye:
 .describe()
 Media
@@ -43,12 +46,14 @@ Moda
 Comparación de tendencia central
 
 4️⃣ Análisis de Valores Faltantes -----------
+
 Conteo por variable
 Gráfico de barras horizontal
 Etiquetas numéricas visibles
 Discusión analítica
 
 5️⃣ Distribución de Variables Numéricas ------
+
 Histogramas personalizados
 Degradado de color
 Etiquetas de frecuencia sobre barras
@@ -59,6 +64,7 @@ MonthlyCharges
 TotalCharges
 
 6️⃣ Variables Categóricas --------------------
+
 Conteo proporcional (%)
 Gráficos de barras
 Etiquetas porcentuales visibles
@@ -73,6 +79,7 @@ StreamingTV
 StreamingMovies
 
 7️⃣ Numérico vs Categórico (Churn) ----------
+
 Comparación de:
 MonthlyCharges vs Churn
 tenure vs Churn
@@ -83,6 +90,7 @@ Media como punto rojo
 Comparación visual clara entre grupos
 
 8️⃣ Categórico vs Categórico -----------------
+
 Tablas cruzadas normalizadas:
 Contract vs Churn
 InternetService vs Churn
@@ -93,6 +101,7 @@ Etiquetas internas en cada barra
 Análisis comparativo de riesgo
 
 9️⃣ Análisis Dinámico Interactivo ------------
+
 Implementa widgets:
 st.slider
 st.selectbox
@@ -105,6 +114,7 @@ Observar cambios según rango seleccionado
 Visualizar registros filtrados
 
 🔟 Hallazgos Clave ----------------------------
+
 Principales insights estratégicos:
 Clientes con contrato mensual presentan mayor churn
 Menor tenure se asocia con mayor abandono
