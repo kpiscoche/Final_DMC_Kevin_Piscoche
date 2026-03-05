@@ -1,118 +1,271 @@
 # Final_DMC_Kevin_Piscoche
-DESCRIPCIÓN DEL PROYECTO:
-CAPTURAS DEL PROYECTO:
 
---------- VISTA PRINCIPAL -------------------------
-<img width="1009" height="801" alt="image" src="https://github.com/user-attachments/assets/13b6c65c-2370-4d85-838a-92ea435139dd" />
--------------- EJERCICIO 5 ------------------------
-<img width="730" height="1147" alt="image" src="https://github.com/user-attachments/assets/ace5e665-9b16-48fd-87c4-7ce1ce6bb754" />
--------------- EJERCICIO 8 ------------------------
-<img width="730" height="930" alt="image" src="https://github.com/user-attachments/assets/7dc18af3-8dd4-4514-9264-65e7ef09ace8" />
--------------- EJERCICIO 9 ------------------------
-<img width="717" height="1204" alt="image" src="https://github.com/user-attachments/assets/711d5dac-8b68-44e4-bd0e-af8058644d73" />
--------------- MENÚ PRINCIPAL ------------------------
-<img width="199" height="239" alt="image" src="https://github.com/user-attachments/assets/729fe85f-6598-4d0e-9427-aec82a8e4bb4" />
+📊 Funcionalidades del Dashboard
 
-📊 TELCO CUSTOMER CHURN ANALYTICS
-📝 Resumen del Proyecto
+El sistema está organizado en menú lateral con navegación estructurada:
 
-Aplicación interactiva desarrollada en Streamlit para analizar el comportamiento de clientes en una empresa de telecomunicaciones, enfocándose en la detección de patrones asociados al abandono (Churn).
+🛖 Home
 
-El sistema implementa un Análisis Exploratorio de Datos (EDA) estructurado, con enfoque estratégico orientado a la retención de clientes y optimización comercial.
+✨ Dataset
 
-🎯 Propósito
+✅ Conclusiones
 
-Identificar los factores que influyen en la cancelación del servicio, evaluando:
+Dentro del módulo Dataset se desarrolla un EDA completo en 10 pestañas.
 
-Impacto del tipo de contrato
+📂 1. Home
 
-Relación entre permanencia y abandono
+Presentación del proyecto
 
-Influencia de los cargos mensuales
+Objetivo del análisis
 
-Efecto de servicios adicionales
+Imagen representativa
 
-Métodos de pago y su relación con churn
+Información del autor
 
-El objetivo no es predictivo, sino analítico y de soporte a decisiones de negocio.
+Contexto del dataset
 
-🧠 Diseño del Sistema
+Herramientas utilizadas
 
-El proyecto utiliza Programación Orientada a Objetos (POO), encapsulando la lógica analítica dentro de una clase principal (Analyzer), lo que permite:
+📊 2. Dataset + EDA Completo (10 Tabs)
+1️⃣ Información General
 
-Organización clara del código
+Tipos de datos organizados
 
-Reutilización de funciones estadísticas
+Conteo de valores nulos
 
-Separación entre análisis y visualización
+Dimensiones del dataset
 
-Escalabilidad futura
+Vista previa
 
-🗂️ Estructura General
+2️⃣ Clasificación Automática
 
-Home: Contexto del proyecto y descripción del dataset
+Identificación automática de:
 
-Dataset: Carga dinámica del archivo CSV y análisis completo
+Variables numéricas
 
-Conclusiones: Principales hallazgos estratégicos
+Variables categóricas
 
-El análisis se divide en 10 secciones que cubren:
+Conteo por tipo
 
-Tipos de datos
+Listado detallado
 
-Valores faltantes
+3️⃣ Estadísticas Descriptivas
 
-Estadísticas descriptivas
+Incluye:
 
-Distribución de variables numéricas
+.describe()
 
-Análisis de variables categóricas
+Media
 
-Comparaciones contra la variable objetivo (Churn)
+Mediana
 
-Segmentación dinámica mediante filtros interactivos
+Moda
 
-📈 Análisis Realizado
+Comparación de tendencia central
 
-Se estudian variables como:
+4️⃣ Análisis de Valores Faltantes
 
-Permanencia (tenure)
+Conteo por variable
 
-Cargos mensuales y totales
+Gráfico de barras horizontal
 
-Tipo de contrato
+Etiquetas numéricas visibles
 
-Servicios contratados
+Discusión analítica
 
-Método de pago
+5️⃣ Distribución de Variables Numéricas
 
-Estado del cliente (Churn)
+Histogramas personalizados
 
-Se aplican métricas como:
+Degradado de color
 
-Media, mediana y moda
+Etiquetas de frecuencia sobre barras
 
-Varianza y desviación estándar
+Identificación visual de asimetrías
 
-Rango e IQR
+Variables clave:
 
-Proporciones y tablas cruzadas
+tenure
 
-Visualizaciones comparativas (boxplots, histogramas, barras apiladas)
+MonthlyCharges
 
-🔎 Principales Insights
+TotalCharges
 
-Los contratos mensuales presentan mayor tasa de abandono.
+6️⃣ Variables Categóricas
 
-Clientes con baja permanencia tienen mayor probabilidad de churn.
+Conteo proporcional (%)
 
-Cargos mensuales elevados están asociados a mayor riesgo.
+Gráficos de barras
 
-Servicios adicionales y pagos automáticos reducen la fuga.
+Etiquetas porcentuales visibles
 
-🛠️ Tecnologías
+Exclusión de variables técnicas como customerID
 
-Python
+Variables analizadas:
+
+Contract
+
+InternetService
+
+PaymentMethod
+
+PaperlessBilling
+
+TechSupport
+
+StreamingTV
+
+StreamingMovies
+
+7️⃣ Numérico vs Categórico (Churn)
+
+Comparación de:
+
+MonthlyCharges vs Churn
+
+tenure vs Churn
+
+Incluye:
+
+Boxplots
+
+Medianas visibles
+
+Media como punto rojo
+
+Comparación visual clara entre grupos
+
+8️⃣ Categórico vs Categórico
+
+Tablas cruzadas normalizadas:
+
+Contract vs Churn
+
+InternetService vs Churn
+
+Incluye:
+
+Gráficos apilados
+
+Proporciones
+
+Etiquetas internas en cada barra
+
+Análisis comparativo de riesgo
+
+9️⃣ Análisis Dinámico Interactivo
+
+Implementa widgets:
+
+st.slider
+
+st.selectbox
+
+Filtro dinámico por rango
+
+Histograma con KDE
+
+Permite:
+
+Filtrar por permanencia (tenure)
+
+Analizar distribución en tiempo real
+
+Observar cambios según rango seleccionado
+
+Visualizar registros filtrados
+
+🔟 Hallazgos Clave
+
+Principales insights estratégicos:
+
+Clientes con contrato mensual presentan mayor churn
+
+Menor tenure se asocia con mayor abandono
+
+MonthlyCharges altos incrementan riesgo
+
+Servicios adicionales reducen probabilidad de fuga
+
+Métodos automáticos de pago muestran menor abandono
+
+📈 Variables Analizadas
+
+customerID
+
+gender
+
+SeniorCitizen
+
+Partner
+
+Dependents
+
+tenure
+
+PhoneService
+
+MultipleLines
+
+InternetService
+
+OnlineSecurity
+
+OnlineBackup
+
+DeviceProtection
+
+TechSupport
+
+StreamingTV
+
+StreamingMovies
+
+Contract
+
+PaperlessBilling
+
+PaymentMethod
+
+MonthlyCharges
+
+TotalCharges
+
+Churn
+
+📊 Conceptos Estadísticos Aplicados
+
+Media
+
+Mediana
+
+Moda
+
+Rango
+
+Varianza
+
+Desviación estándar
+
+Desviación media
+
+IQR
+
+Coeficiente de variación
+
+Distribución
+
+Comparación de grupos
+
+Tablas cruzadas
+
+Proporciones
+
+Segmentación dinámica
+
+🛠️ Tecnologías Utilizadas
+
+Python 3.x
 
 Streamlit
 
@@ -123,15 +276,3 @@ NumPy
 Matplotlib
 
 Seaborn
-
-Si quieres, puedo ahora:
-
-Hacerlo aún más corto tipo descripción ejecutiva (1 sola página)
-
-Convertirlo en README optimizado para GitHub
-
-Adaptarlo a formato CV / portfolio
-
-Redactarlo como defensa oral para presentación
-
-¿Para qué lo necesitas exactamente? 🚀
