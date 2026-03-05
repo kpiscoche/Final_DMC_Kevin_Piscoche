@@ -18,3 +18,18 @@ LINKS RELEVANTES:
 
 Repositorio Github:
 Interfaz Streamlit:
+
+
+📝 Descripción del Proyecto
+Este proyecto se desarrolló para una base de datos de "Fuga de clientes" desarrollada con Python y publicada en Streamlit para generar una interfaz de usuario más dinámica, que implementa un Análisis Exploratorio de Datos (EDA).
+
+El proyecto se orienta hacia el análisis estratégico para la toma de decisiones sobre la fuga de clientes de la entidad.
+
+Se integra:
+
+✅ Python aplicado a Data Analytics
+✅ Programación Orientada a Objetos (POO)
+✅ Análisis Exploratorio estructurado en 10 módulos
+✅ Visualización estadística avanzada
+✅ Dashboard interactivo profesional
+✅ Segmentación dinámica con filtros
